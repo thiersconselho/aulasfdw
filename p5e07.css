@@ -1,0 +1,40 @@
+html, body {
+    font-size: 1rem;
+    font-family: "Segoe UI", Verdana, Arial;
+    height: 95%; 
+}
+main {
+    margin: 2rem auto; /* O primeiro valor será
+    					atribuído às margens superior e inferior.
+    					O segundo valor será atribuído às margens 
+    					direita e esquerda. 
+    					A palavra 'auto' indica que o valor deve ser calculado automaticamente.*/     
+    width: 32rem;
+    height: 30rem;
+}
+p {
+    color: gray;
+    font-size: 1.8rem;
+    text-align: center;
+} 
+
+h1 {
+    color: darkgreen;
+    font-size: 2.7rem;
+} 
+.numero {
+	background-color: lightyellow;
+	height: 3rem;
+	padding: 1rem;
+	margin-bottom: 2rem;
+} 
+.resultado {
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+	background-color: red;
+	color: yellow;
+	font-weight: bold;
+	text-align: center;
+}
+input {text-align: center;} 
